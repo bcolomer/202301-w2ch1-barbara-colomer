@@ -6,50 +6,56 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap" rel="stylesheet">
   <title>Cars Seller</title>
 </head>
 
 <body>
   <main class="cars-seller">
-    <ul class="cars-container">
-      <li class="sedans">
-        <div class="sedan-vector">
-          <img src="images/icon-sedans.svg" alt="small sedan car icon">
-        </div>
-        <h2 class="sedan-title">Sedans</h2>
-        <p class="sedan-caracteristics">
-          Sedans Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on
-          your next
-          road trip.
-        </p>
-        <button class="learn-more-button">Learn More</button>
-      </li>
-      <li class="suvs">
-        <div class="suvs-vector">
-          <img src="images/icon-suvs.svg" alt="small suv car icon">
-        </div>
-        <h2 class="suv-title">Suvs</h2>
-        <p class="sedan-caracteristics">
-          SUVs Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and
-          off-road
-          adventures.
-        </p>
-        <button class="learn-more-button">Learn More</button>
-      </li>
-      <li class="luxury">
-        <div class="luxury-vector">
-          <img src="images/icon-luxury.svg" alt="small luxury car icon">
-        </div>
-        <h2 class="luxury-title">Luxury</h2>
-        <p class="luxury-caracteristics">
-          Luxury Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental
-          and
-          arrive in style.
-        </p>
-        <button class="learn-more-button">Learn More</button>
-      </li>
-    </ul>
 
+    <ul class="cars-container">
+      <section class="individuals-cars-container">
+        <li class="individual-car sedan">
+          <div class="car__vector individual-car__element">
+            <img src="images/icon-sedans.svg" alt="small sedan car icon">
+          </div>
+          <h2 class="car__title individual-car__element">Sedans</h2>
+          <p class="car__caracteristics individual-car__element">
+            Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on
+            your next
+            road trip.
+          </p>
+          <button class="learn-more-button individual-car__element button__sedan">Learn More</button>
+        </li>
+        <li class="individual-car suvs">
+          <div class="car__vector individual-car__element">
+            <img src="images/icon-suvs.svg" alt="small suv car icon">
+          </div>
+          <h2 class="car__title individual-car__element">Suvs</h2>
+          <p class="car__caracteristics individual-car__element">
+            Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
+            and
+            off-road
+            adventures.
+          </p>
+          <button class="learn-more-button individual-car__element button__suv">Learn More</button>
+        </li>
+        <li class="individual-car luxury">
+          <div class="car__vector individual-car__element">
+            <img src="images/icon-luxury.svg" alt="small luxury car icon">
+          </div>
+          <h2 class="car__title individual-car__element">Luxury</h2>
+          <p class="car__caracteristics individual-car__element">
+            Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
+            rental
+            and
+            arrive in style.
+          </p>
+          <button class="learn-more-button button__luxury individual-car__element">Learn More</button>
+        </li>
+      </section>
+    </ul>
   </main>
 </body>
 
