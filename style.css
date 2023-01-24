@@ -16,13 +16,7 @@
   border-radius: 20px;
   display: block;
 }
-@media (min-width: 1040px) {
-  .individuals-cars-container {
-    display: flex;
-  }
-  .individual-car__sedan {
-  }
-}
+
 .individual-car {
   color: white;
   padding: 1rem;
@@ -69,4 +63,23 @@
 }
 .button__luxury {
   color: #00403f;
+}
+.sedan {
+  border-radius: 20px 20px 0px 0px;
+}
+.luxury {
+  border-radius: 0px 0px 20px 20px;
+}
+@media (min-width: 1440px) {
+  .individuals-cars-container {
+    display: flex;
+  }
+  .individual-car__sedan {
+  }
+  .sedan {
+    border-radius: 20px 0px 0px 20px;
+  }
+  .luxury {
+    border-radius: 0px 20px 20px 0px;
+  }
 }
